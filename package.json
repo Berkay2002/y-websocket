@@ -12,7 +12,7 @@
     "url": "https://github.com/sponsors/dmonad"
   },
   "scripts": {
-    "start": "node ./bin/server.cjs --port $PORT --host 0.0.0.0"
+    "start": "node ./bin/server.cjs --port $PORT --host 0.0.0.0",
     "dist": "rm -rf dist && rollup -c && tsc",
     "lint": "standard && tsc",
     "test": "npm run lint",
